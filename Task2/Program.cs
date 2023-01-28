@@ -24,7 +24,7 @@ void PrintArray(int[] arr)
         if (i % 2 > 0) sum += arr[i];
     }
     System.Console.WriteLine();
-    System.Console.WriteLine($"Сумма чисел, на нечетной позиции, соcтаваляет {sum} ");
+    System.Console.WriteLine($"Сумма чисел на нечетной позиции, соcтаваляет {sum} ");
     System.Console.WriteLine();
 }
 PrintArray(FillArray(size));
